@@ -1,1 +1,8 @@
 # AEM-electrolysers
+This repository presents a comprehensive process-level model of a zero-gap Anion Exchange Membrane (AEM) water electrolyser developed using Aspen Plus. The model adapts the established alkaline water electrolyser (AWE) semi-empirical voltage framework to represent AEM electrolysis under alkaline operating conditions, assuming hydroxide-ion conduction and Tafel-type activation behaviour.
+
+The electrolyser cell voltage is formulated as the sum of reversible thermodynamic voltage, activation overpotentials, membrane ohmic losses, and concentration effects. The model was validated against experimental polarization data, showing strong agreement across the full current density range, thereby confirming the applicability of the adapted AWE framework for AEM systems.
+
+A detailed parametric analysis was performed to study the influence of key operating and design variables, including temperature, electrolyte (KOH-equivalent) concentration, membrane thickness, and electrode exchange current densities, on cell voltage and efficiency. Results demonstrate that higher temperatures and electrolyte concentrations significantly reduce voltage losses, while thinner membranes lower ohmic resistance. The anode exchange current density was found to have a stronger impact on activation losses compared to the cathode. Feed flow rate showed negligible influence under zero-gap conditions.
+
+Overall, this work highlights the capability of Aspen Plus as an effective simulation platform for emerging AEM electrolyser technologies and provides insights useful for performance optimisation and future scale-up studies in green hydrogen production.
